@@ -15,6 +15,7 @@ Several young <span style="color: #f0456a;">socialists</span>, led by Carlo Mier
 #- @shuffle_leadership: It's time to change our advisors to take into account new ideas.
 - @support_neo: Support the neorevisionist movement.
 - @no_new_ideas: We don't need new ideas.
+- @cancel_advisor_action
 - @easy_discard
 
 @support_neo

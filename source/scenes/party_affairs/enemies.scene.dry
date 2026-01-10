@@ -18,6 +18,7 @@ In our media and campaign materials, who should we consider as our main opponent
 - @nsdap: The <span style="color: #7A3C00;">**NSDAP**</span> alone.
 - @kpd: The <span style="color: #700000;">**KPD**</span>.
 - @bourgeois: The bourgeois parties - the [? if z_party_name != "CVP": <span style="color: #000000;">Center</span>?][? if z_party_name == "CVP": <span style="color: #000000;">**CVP**</span>?] and [? if not lvp_formed and dvp_exist: <span style="color: #C0A054;">**DVP**</span>?][? if not lvp_formed and not dvp_exist: <span style="color: #D3C24D;">**[+ ddp_name +]**</span>?][? if lvp_formed: <span style="color: #FFCC00;">**LVP**</span>?].
+- @cancel_advisor_action
 - @easy_discard
 
 @anti_dem

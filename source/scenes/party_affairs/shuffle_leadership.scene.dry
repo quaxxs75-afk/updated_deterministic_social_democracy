@@ -10,6 +10,7 @@ go-to: rm_main
 - @rm_main: Remove advisors
 - @add_advisors: Add advisors
 - @remove_none: Don't change advisors.
+- @cancel_advisor_action
 - @easy_discard
 
 

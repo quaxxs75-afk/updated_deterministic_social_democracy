@@ -15,6 +15,7 @@ We receive dues at the end of each year, but can adjust them throughout. Low par
 - @maintain: Maintain our current dues.
 - @reduce: Reduce dues.
 - @increase: Increase dues.
+- @cancel_advisor_action
 - @easy_discard
 
 @maintain

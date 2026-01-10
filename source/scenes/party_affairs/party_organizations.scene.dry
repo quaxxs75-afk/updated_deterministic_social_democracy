@@ -18,6 +18,7 @@ In addition to being a political party, the <span style="color: #c00000;">**SPD*
 - @rb: Fund the Reichsbanner, our self-defense organization.
 - @youth: We have the reputation of being a party for old men. Support the youth organizations.
 - @nothing: Do not increase funding for any program.
+- @cancel_advisor_action
 - @easy_discard
 
 @newspapers

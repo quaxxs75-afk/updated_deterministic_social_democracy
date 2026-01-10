@@ -24,6 +24,7 @@ Meanwhile, moderates and reformists draw up proposals for a limited plan of job 
 - @support_labor_pre: Support the Labor view.
 - @support_left: Support the Left view.
 - @support_moderate: Support the Reformist view.
+- @cancel_advisor_action
 - @defer: Defer making a decision until we have more information.
 
 @support_centrist
