@@ -164,8 +164,6 @@ Inflation: [+ inflation_2 +]%<br>
 Economic growth: [+ economic_growth_2 +]%
 
 @politics
-on-arrival:{!
-
 on-arrival: {!
 Q.dnef_relation_disp = Math.round(Q.dnef_relation);
 Q.z_relation_disp = Math.round(Q.z_relation);
