@@ -290,7 +290,7 @@ Soviet relations: [+ soviet_relation +]
 
 {!<span class="tooltip-text" title="Labor's goal is economic reform and benefits for organized workers.">Labor</span>!} strength: [+ labor_strength : strength +] [+ labor_strength_disp +], dissent: [+ labor_dissent : dissent +] [+ labor_dissent_disp +]
 
-{!<span class="tooltip-text" title="Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy.">Reformist</span>!} strength: [+ reformist_strength : strength +] [+ left_strength_disp +], dissent: [+ reformist_dissent : dissent +] [+ reformist_dissent_disp +]
+{!<span class="tooltip-text" title="Reformists are pragmatic participants in government, and seek to expand the welfare state and defend democracy.">Reformist</span>!} strength: [+ reformist_strength : strength +] [+ reformist_strength_disp +], dissent: [+ reformist_dissent : dissent +] [+ reformist_dissent_disp +]
 
 
 @paramilitaries
