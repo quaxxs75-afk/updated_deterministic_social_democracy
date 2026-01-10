@@ -138,6 +138,8 @@ if (rightTools) {
 
 Q.last_advisor_action = 0;
 Q.last_cabinet_action = 0;
+Q.last_party_action = 0;
+
 // make sure no stat is below 0.
 for (var c of Q.classes) {
     for (var party of Q.parties) {
