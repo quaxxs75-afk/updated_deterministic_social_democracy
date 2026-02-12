@@ -207,8 +207,12 @@ on-arrival: {!
     "achievement_abgrundlaufer",
     "achievement_bruning_uber_alles",
     "achievement_der_aufstieg_skywalkers",
-    "achievement_kulturkampf"
-];
+    "achievement_kulturkampf",
+    "achievement_mr_breitscheid",
+    "achievement_alt_aber_gold",
+    "achievement_kleber_der_partei",
+    "achievement_grosse_sauberung"
+  ];
 
   Q.unlockedCount = achievements.filter(key => Q[key] === 1).length;
   Q.totalAchievements = achievements.length;
@@ -375,9 +379,33 @@ elements.forEach(el => {
 
 [? if not snoopy: - Singular bug fix. ?]
 
+**V1.05 - 2026/01/24**
+
+[? if not snoopy: - New achievement: "Because I'm Mr. Breit-scheid". ?]
+
+[? if not snoopy: - Several bug fixes. ?]
+
+**V1.05a - 2026/01/25**
+
+[? if not snoopy: - New achievements: "Alt, Aber Gold", "Kleber der Partei", and "Große Säuberung". ?]
+
+[? if not snoopy: - "Hindenburg Voices Disapproval" event is now limited to 3 repeats. ?]
+
+[? if not snoopy: - People's Party now decreases Hindenburg's anger. ?]
+
+[? if not snoopy: - Tariffs have a greater impact on worker and unemployed support. ?]
+
+[? if not snoopy: - Dingeldey's <span style="color: #C0A054;">**DVP**</span> now joins the <span style="color: #7A3C00;">far</span>-<span style="color: #3E88B3;">right</span> coalition more often. ?]
+
+[? if not snoopy: - Neorevisionist faction strength and dissent are now displayed in the status. ?]
+
+[? if not snoopy: - Fixed a bug causing centrist and non-factional dissent decay reductions to not apply. ?]
+
+[? if not snoopy: - Other bug fixes. ?]
+
 = Future Plans
 
-I'm currently on break.
+I'm currently working on another mod, *La Via Chilena al Socialismo*. Updates will resume once that's finished.
 
 - @back3: Back
 
