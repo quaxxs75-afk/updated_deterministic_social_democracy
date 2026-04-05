@@ -854,10 +854,10 @@ if (Q.rubicon && Q.month_actions >= 1 && Q.month_actions != Q.month_actions_chec
         if (Q.inflation > 3) Q.inflation -= 0.3/12;
         if (Q.inflation > 4) Q.inflation -= 0.3/12;
     }
-    if (Q.workers_schleicher >= 6) Q.schleicher_spd_influence += 0.1;
-    if (Q.workers_schleicher >= 8) Q.schleicher_spd_influence += 0.15;
-    if (Q.workers_schleicher >= 10) Q.schleicher_spd_influence += 0.2;
-    if (Q.workers_schleicher >= 12) Q.schleicher_spd_influence += 0.4;
+    if (Q.workers_schleicher >= 6) Q.schleicher_spd_influence += 0;
+    if (Q.workers_schleicher >= 8) Q.schleicher_spd_influence += 0;
+    if (Q.workers_schleicher >= 10) Q.schleicher_spd_influence += 0;
+    if (Q.workers_schleicher >= 12) Q.schleicher_spd_influence += 0;
     if (!Q.nazi_peak_triggered) {
         Q.nazi_peak_base = 25;
         Q.nazi_peak = Q.nazi_peak_base;
