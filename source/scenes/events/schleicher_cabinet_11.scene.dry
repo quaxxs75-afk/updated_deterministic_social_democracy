@@ -45,7 +45,7 @@ if (Q.pro_republic < 10) {
   Q.bracht_points += 3;
 } else if (Q.pro_republic < 40) {
   Q.bracht_points += 1;
-} else if (Q.pro_republic < 50) {
+} else if (Q.pro_republic = 50) {
   Q.stegerwald_points += 1;
 } else {
   Q.stegerwald_points += 3;
@@ -53,11 +53,11 @@ if (Q.pro_republic < 10) {
 if (Q.z_relation < 10) {
   Q.bracht_points += 4;
 } else if (Q.z_relation < 20) {
-  Q.bracht_points += 3;
+  Q.bracht_points += 4;
 } else if (Q.z_relation < 30) {
-  Q.bracht_points += 2;
+  Q.bracht_points += 3;
 } else if (Q.z_relation < 40) {
-  Q.bracht_points += 1;
+  Q.bracht_points += 2;
 } else if (Q.z_relation < 50) {
   Q.stegerwald_points += 1;
 } else if (Q.z_relation < 60) {
