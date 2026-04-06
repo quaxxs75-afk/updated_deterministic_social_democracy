@@ -402,9 +402,9 @@ Q.spd_points += Q.rb_power / 50;
 
 Q.prussian_police_power = Q.prussian_police_strength*Q.prussian_police_militancy*Q.prussian_police_loyalty;
 Q.evil_prussian_police_power = Q.prussian_police_strength*Q.prussian_police_militancy*(1 - Q.prussian_police_loyalty);
-if (Q.spd_prussia && Q.prussia_leader == "Braun" || Q.prussia_leader == "Rosenfeld") {
+if (Q.prussia_leader == "Braun" || Q.prussia_leader == "Rosenfeld") {
     Q.spd_points += Q.prussian_police_power / 10;
-} else if (Q.spd_prussia && Q.prussia_leader !== "Braun" && Q.prussia_leader !== "Rosenfeld") {
+} else if (Q.prussia_leader !== "Braun" && Q.prussia_leader !== "Rosenfeld") {
     Q.spd_points += (Q.prussian_police_power / 20);
 }
 if (Q.prussia_leader == "Schleicher" || Q.prussia_leader == "Goerdeler" || Q.prussia_leader == "Strasser") {
